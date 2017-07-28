@@ -1,0 +1,1 @@
+- sudo discoveryutil mdnsflushcache update dns local pool flush
