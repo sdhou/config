@@ -58,6 +58,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export HOMEBREW_GITHUB_API_TOKEN=2ba63834fcfff1118c5f16b1a434dcf25d7eda34
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
+export HOMEBREW_BOTTLE_DOMAIN=http://7xkcej.dl1.z0.glb.clouddn.com
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,10 +97,18 @@ alias odapp04="ssh remote@180.150.178.177"
 alias odjob01="ssh remote@123.59.80.157"
 alias odtest01="ssh remote@106.75.50.140"
 alias odgit="ssh remote@123.59.80.166"
-alias oddb="ssh -qTfnN remote@odtest01 -L 3306:127.0.0.1:3306"
+alias oddb="ssh -qTfnN remote@odtest01 -L 3307:127.0.0.1:3306"
+alias odhrdb="ssh -qTfnN sdhou@1.0.1.166 -L 3306:127.0.0.1:3306"
 alias sdhou="ssh remote@sdhou.com"
 alias gitfb='git fetch && git rebase'
 alias brewup="brew update -v && brew upgrade -v && brew cleanup && brew doctor"
 alias fmtphp="fmt.phar --psr2 --no-backup --ignore=vendor ./"
+alias ciji="ssh remote@120.26.54.198"
+alias qgg01="ssh remote@47.95.253.37"
+alias qggdb="ssh -qTfnN remote@47.95.253.37 -L 3307:127.0.0.1:3306"
+alias manting01="ssh remote@101.200.32.72"
+alias mantingdb="ssh -qTfnN remote@101.200.32.72 -L 3307:127.0.0.1:3306"
+alias cvw01="ssh remote@47.97.103.0"
 
-export HOMEBREW_CASK_OPTS="--caskroom=/opt/homebrew-cask/Caskroom"
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
