@@ -109,6 +109,24 @@ alias qggdb="ssh -qTfnN remote@47.95.253.37 -L 3307:127.0.0.1:3306"
 alias manting01="ssh remote@101.200.32.72"
 alias mantingdb="ssh -qTfnN remote@101.200.32.72 -L 3307:127.0.0.1:3306"
 alias cvw01="ssh remote@47.97.103.0"
+alias glances="python /usr/local/lib/python2.7/site-packages/glances"
+alias fmm-gitlab="ssh fanmm@59.110.116.175"
+alias fmm-pf01="ssh fanmm@47.93.178.239 -i ~/.ssh/sdhou.pem -v"
+alias fmm-pf02="ssh fanmm@47.93.83.63 -i ~/.ssh/sdhou.pem -v"
+alias fmm-pf03="ssh fanmm@59.110.106.0 -i ~/.ssh/sdhou.pem -v"
+alias fmm-web9="ssh root@59.110.104.13 -p9889 -v -i .ssh/sdhou.pem"
+alias fmm-website2="ssh root@39.96.116.165 -v -i ~/.ssh/sdhou.pem -p9889"
+alias bwg-fmt="ssh root@174.137.62.213 -v -p 29547"
+alias bwg-cn2="ssh root@104.36.67.47 -v -p 26648"
+alias sss="export http_proxy=http://0.0.0.0:1087;export https_proxy=http://0.0.0.0:1087;"
+alias lzns01="ssh remote@47.99.163.119 -v"
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
+#export JAVA_HOME=/opt/jdk1.7.0_79/Contents/Home
+#export PATH=$JAVA_HOME/bin:$PATH
+#export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+export GOOGLE_API_KEY="AIzaSyCRuO6o44QO8DU1cqCflJwjYWQI96sTwZM"
+export GOOGLE_DEFAULT_CLIENT_ID="881538212363-p66ie30up5k9qh3kcaenajlhcu7ierp9.apps.googleusercontent.com"
+export GOOGLE_DEFAULT_CLIENT_SECRET="4u8YtOaqbMY_qpxOeR_iq1Hp"
