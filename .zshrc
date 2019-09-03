@@ -59,6 +59,7 @@ export HOMEBREW_GITHUB_API_TOKEN=2ba63834fcfff1118c5f16b1a434dcf25d7eda34
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=http://7xkcej.dl1.z0.glb.clouddn.com
 
 source $ZSH/oh-my-zsh.sh
@@ -118,8 +119,16 @@ alias fmm-web9="ssh root@59.110.104.13 -p9889 -v -i .ssh/sdhou.pem"
 alias fmm-website2="ssh root@39.96.116.165 -v -i ~/.ssh/sdhou.pem -p9889"
 alias bwg-fmt="ssh root@174.137.62.213 -v -p 29547"
 alias bwg-cn2="ssh root@104.36.67.47 -v -p 26648"
-alias sss="export http_proxy=http://0.0.0.0:1087;export https_proxy=http://0.0.0.0:1087;"
+alias sss="export http_proxy=http://0.0.0.0:8118;export https_proxy=http://0.0.0.0:8118;"
 alias lzns01="ssh remote@47.99.163.119 -v"
+alias heycoins01="ssh remote@47.91.214.153 -v"
+alias heycoins-test01="ssh remote@47.52.169.107 -v"
+alias heycoins-db="ssh -qTfnN remote@47.52.169.107 -L 3307:127.0.0.1:3306"
+alias union-jd="ssh remote@47.103.82.106 -v"
+alias union-jd-db="ps aux|grep 'ssh -fCPN remote@47.103.82.106 -L 3307:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306'|grep -v grep|head -n 1|awk '{print \$2}'|xargs kill && ssh -fCPN remote@47.103.82.106 -L 3306:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306"
+alias jbp="ssh remote@122.112.235.198 -v"
+alias smartshoe="ssh remote@47.103.128.231 -v"
+alias smartshoe-db="ps aux|grep 'ssh -fCPN root@47.103.128.231 -L 3307:127.0.0.1:3306'|grep -v grep|head -n 1|awk '{print \$2}'|xargs kill && ssh -fCPN root@47.103.128.231 -L 3307:127.0.0.1:3306"
 
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
