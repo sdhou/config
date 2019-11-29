@@ -1,24 +1,39 @@
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/sdhou/.oh-my-zsh
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Path to your oh-my-zsh installation.
+export ZSH="/home/sdhou/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bira"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -39,30 +54,27 @@ ZSH_THEME="bira"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
-export HOMEBREW_GITHUB_API_TOKEN=2ba63834fcfff1118c5f16b1a434dcf25d7eda34
-export PATH="/usr/local/sbin:$PATH"
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
-export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export HOMEBREW_BOTTLE_DOMAIN=http://7xkcej.dl1.z0.glb.clouddn.com
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -77,9 +89,6 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -88,54 +97,19 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll='ls -alh'
-alias vim='mvim'
-alias odlb="ssh remote@106.75.65.156"
-alias odapp01="ssh remote@123.59.80.156"
-alias odapp02="ssh remote@123.59.80.164"
-alias odapp03="ssh remote@180.150.179.19"
-alias odapp04="ssh remote@180.150.178.177"
-alias odjob01="ssh remote@123.59.80.157"
-alias odtest01="ssh remote@106.75.50.140"
-alias odgit="ssh remote@123.59.80.166"
-alias oddb="ssh -qTfnN remote@odtest01 -L 3307:127.0.0.1:3306"
-alias odhrdb="ssh -qTfnN sdhou@1.0.1.166 -L 3306:127.0.0.1:3306"
-alias sdhou="ssh remote@sdhou.com"
-alias gitfb='git fetch && git rebase'
-alias brewup="brew update -v && brew upgrade -v && brew cleanup && brew doctor"
-alias fmtphp="fmt.phar --psr2 --no-backup --ignore=vendor ./"
-alias ciji="ssh remote@120.26.54.198"
 alias qgg01="ssh remote@47.95.253.37"
 alias qggdb="ssh -qTfnN remote@47.95.253.37 -L 3307:127.0.0.1:3306"
 alias manting01="ssh remote@101.200.32.72"
 alias mantingdb="ssh -qTfnN remote@101.200.32.72 -L 3307:127.0.0.1:3306"
-alias cvw01="ssh remote@47.97.103.0"
-alias glances="python /usr/local/lib/python2.7/site-packages/glances"
-alias fmm-gitlab="ssh fanmm@59.110.116.175"
-alias fmm-pf01="ssh fanmm@47.93.178.239 -i ~/.ssh/sdhou.pem -v"
-alias fmm-pf02="ssh fanmm@47.93.83.63 -i ~/.ssh/sdhou.pem -v"
-alias fmm-pf03="ssh fanmm@59.110.106.0 -i ~/.ssh/sdhou.pem -v"
-alias fmm-web9="ssh root@59.110.104.13 -p9889 -v -i .ssh/sdhou.pem"
-alias fmm-website2="ssh root@39.96.116.165 -v -i ~/.ssh/sdhou.pem -p9889"
 alias bwg-fmt="ssh root@174.137.62.213 -v -p 29547"
-alias bwg-cn2="ssh root@104.36.67.47 -v -p 26648"
+alias bwg-cn2="ssh root@los.sdhou.com -v -p 26648"
 alias sss="export http_proxy=http://0.0.0.0:8118;export https_proxy=http://0.0.0.0:8118;"
-alias lzns01="ssh remote@47.99.163.119 -v"
-alias heycoins01="ssh remote@47.91.214.153 -v"
-alias heycoins-test01="ssh remote@47.52.169.107 -v"
-alias heycoins-db="ssh -qTfnN remote@47.52.169.107 -L 3307:127.0.0.1:3306"
-alias union-jd="ssh remote@47.103.82.106 -v"
-alias union-jd-db="ps aux|grep 'ssh -fCPN remote@47.103.82.106 -L 3307:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306'|grep -v grep|head -n 1|awk '{print \$2}'|xargs kill && ssh -fCPN remote@47.103.82.106 -L 3306:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306"
+alias unionjd="ssh remote@47.103.82.106 -v"
+alias unionjddb="ssh -fCPN remote@47.103.82.106 -L 3306:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306"
+alias unionjdgitpull="ssh remote@47.103.82.106 'cd /data/code/admin/ && /usr/bin/git pull'"
 alias jbp="ssh remote@122.112.235.198 -v"
 alias smartshoe="ssh remote@47.103.128.231 -v"
-alias smartshoe-db="ps aux|grep 'ssh -fCPN root@47.103.128.231 -L 3307:127.0.0.1:3306'|grep -v grep|head -n 1|awk '{print \$2}'|xargs kill && ssh -fCPN root@47.103.128.231 -L 3307:127.0.0.1:3306"
-
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-
-#export JAVA_HOME=/opt/jdk1.7.0_79/Contents/Home
-#export PATH=$JAVA_HOME/bin:$PATH
-#export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-
-export GOOGLE_API_KEY="AIzaSyCRuO6o44QO8DU1cqCflJwjYWQI96sTwZM"
-export GOOGLE_DEFAULT_CLIENT_ID="881538212363-p66ie30up5k9qh3kcaenajlhcu7ierp9.apps.googleusercontent.com"
-export GOOGLE_DEFAULT_CLIENT_SECRET="4u8YtOaqbMY_qpxOeR_iq1Hp"
+alias smartshoedb="ssh -fCPN root@47.103.128.231 -L 3307:127.0.0.1:3306"
+alias btob="ssh remote@47.110.255.180 -v"
+alias btobdb="ssh -fCPN remote@47.110.255.180 -L 3308:rm-bp1890ndndw9sn5r790150.mysql.rds.aliyuncs.com:3306"
+alias btobgitpull="ssh remote@47.110.255.180 'cd /data/code/api/ && /usr/bin/git pull'"
