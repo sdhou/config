@@ -132,6 +132,7 @@ alias freezer="ssh dev@8.133.172.205 -v"
 alias freezerdb="ps auxf|grep '3307:127.0.0.1:3306'|grep -v 'grep'|awk '{print \$2}'|xargs kill ;ssh -qTfnN dev@8.133.172.205 -L 3307:127.0.0.1:3306"
 alias parking="ssh dev@8.133.172.205 -v"
 alias parkingdb="ps auxf|grep '3308:127.0.0.1:3306'|grep -v 'grep'|awk '{print \$2}'|xargs kill ;ssh -qTfnN dev@8.133.172.205 -L 3308:127.0.0.1:3306"
+alias xijing01="ssh root@106.15.201.4 -v"
 
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
