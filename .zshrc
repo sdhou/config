@@ -133,8 +133,17 @@ alias freezerdb="ps auxf|grep '3307:127.0.0.1:3306'|grep -v 'grep'|awk '{print \
 alias parking="ssh dev@8.133.172.205 -v"
 alias parkingdb="ps auxf|grep '3308:127.0.0.1:3306'|grep -v 'grep'|awk '{print \$2}'|xargs kill ;ssh -qTfnN dev@8.133.172.205 -L 3308:127.0.0.1:3306"
 alias xijing01="ssh root@106.15.201.4 -v"
+alias xijing-prod="ssh root@106.75.226.3 -v"
+alias xijing-zhdn-test="ssh ubuntu@113.31.157.154 -v"
+alias xijing-zhdn="ssh ubuntu@113.31.154.49 -v"
+alias xijing-zhdn-prod="ssh user@192.168.109.195 -v"
+alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
 
 export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
 #export http_proxy=http://192.168.62.59:20172;export https_proxy=http://192.168.62.59:20172;
