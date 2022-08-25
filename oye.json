@@ -35,7 +35,12 @@
                           "hyperlink": "https://deerpark.app/reader/T2011/1"
                         },
                         "children": [
-                          { "data": { "text": "慧能" } },
+                          {
+                            "data": {
+                              "text": "慧能",
+                              "hyperlink": "https://deerpark.app/reader/T2007/1"
+                            }
+                          },
                           { "data": { "text": "神秀" } },
                           { "data": { "text": "釋慧安" } },
                           { "data": { "text": "蒙山道明" } },
