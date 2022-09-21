@@ -39,7 +39,169 @@
                             "data": {
                               "text": "慧能",
                               "hyperlink": "https://deerpark.app/reader/T2008/1"
-                            }
+                            },
+                            "children": [
+                              {
+                                "data": {
+                                  "text": "懷讓",
+                                  "hyperlink": "https://deerpark.app/reader/X1315/1"
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "text": "馬祖道一",
+                                      "hyperlink": "https://deerpark.app/reader/X1321/1"
+                                    }
+                                  },
+                                  {
+                                    "data": { "text": "道峻", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "大明嚴峻",
+                                      "hyperlink": ""
+                                    }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "南嶽常浩",
+                                      "hyperlink": ""
+                                    }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "潮州神照",
+                                      "hyperlink": ""
+                                    }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "東霧法空",
+                                      "hyperlink": ""
+                                    }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "新羅本如",
+                                      "hyperlink": ""
+                                    }
+                                  },
+                                  {
+                                    "data": { "text": "坦然", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": { "text": "玄晟", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": { "text": "智達", "hyperlink": "" }
+                                  }
+                                ]
+                              },
+                              {
+                                "data": {
+                                  "text": "行思",
+                                  "hyperlink": "https://baike.baidu.com/item/%E8%A1%8C%E6%80%9D/653130#3"
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "text": "希遷",
+                                      "hyperlink": ""
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "data": {
+                                  "text": "法海",
+                                  "hyperlink": "https://deerpark.app/reader/T2007/1"
+                                }
+                              },
+                              {
+                                "data": { "text": "永嘉玄覺" },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "text": "禪宗永嘉集",
+                                      "hyperlink": "https://deerpark.app/reader/T2013/1"
+                                    }
+                                  },
+                                  {
+                                    "data": {
+                                      "text": "永嘉證道歌",
+                                      "hyperlink": "https://deerpark.app/reader/T2014/1"
+                                    }
+                                  },
+                                  {
+                                    "data": { "text": "惠操", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": { "text": "惠特", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": { "text": "等慈", "hyperlink": "" }
+                                  },
+                                  {
+                                    "data": { "text": "玄寂", "hyperlink": "" }
+                                  }
+                                ]
+                              },
+                              {
+                                "data": {
+                                  "text": "神會",
+                                  "hyperlink": "https://zh.m.wikisource.org/zh-hant/%E9%A1%AF%E5%AE%97%E8%A8%98"
+                                }
+                              },
+                              {
+                                "data": { "text": "南陽慧忠", "hyperlink": "" }
+                              },
+                              { "data": { "text": "堅固", "hyperlink": "" } },
+                              { "data": { "text": "淨藏", "hyperlink": "" } },
+                              {
+                                "data": { "text": "峽山泰祥", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "并州自在", "hyperlink": "" }
+                              },
+                              { "data": { "text": "玄楷", "hyperlink": "" } },
+                              { "data": { "text": "智本", "hyperlink": "" } },
+                              {
+                                "data": { "text": "制空道進", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "韶山緣素", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "秦望善現", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "南嶽梵行", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "西京咸空", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "光州法淨", "hyperlink": "" }
+                              },
+                              {
+                                "data": { "text": "清涼辯才", "hyperlink": "" }
+                              },
+                              {
+                                "data": {
+                                  "text": "廣州吳頭陀",
+                                  "hyperlink": ""
+                                }
+                              },
+                              { "data": { "text": "道英", "hyperlink": "" } },
+                              {
+                                "data": { "text": "清苑法真", "hyperlink": "" }
+                              },
+                              { "data": { "text": "曇璀", "hyperlink": "" } },
+                              { "data": { "text": "孫菩薩", "hyperlink": "" } },
+                              { "data": { "text": "韋璩", "hyperlink": "" } },
+                              { "data": { "text": "薛簡", "hyperlink": "" } },
+                              { "data": { "text": "到次明", "hyperlink": "" } }
+                            ]
                           },
                           { "data": { "text": "神秀" } },
                           { "data": { "text": "釋慧安" } },
@@ -64,11 +226,7 @@
                           { "data": { "text": "道安" } }
                         ]
                       },
-                      {
-                        "data": {
-                          "text": "牛頭法融"
-                        }
-                      },
+                      { "data": { "text": "牛頭法融" } },
                       { "data": { "text": "玄爽" } },
                       { "data": { "text": "善伏" } },
                       { "data": { "text": "法顯" } },
