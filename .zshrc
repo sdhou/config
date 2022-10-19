@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/sdhou/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,7 +104,7 @@ alias manting01="ssh remote@101.200.32.72"
 alias mantingdb="ssh -qTfnN remote@101.200.32.72 -L 3307:127.0.0.1:3306"
 alias bwg-fmt="ssh root@174.137.62.213 -v -p 29547"
 alias bwg-cn2="ssh root@los.sdhou.com -v -p 26648"
-alias sss="export http_proxy=http://127.0.0.1:20171;export https_proxy=http://127.0.0.1:20171;"
+alias sss="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
 alias ssc="export http_proxy=;export https_proxy=;"
 alias unionjd="ssh remote@47.103.82.106 -p 7788 -v"
 alias unionjddb="ssh -p 7788 -fCPN remote@47.103.82.106 -L 3308:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306"
@@ -138,12 +138,14 @@ alias xijing-zhdn-test="ssh ubuntu@113.31.157.154 -v"
 alias xijing-zhdn="ssh ubuntu@113.31.154.49 -v"
 alias xijing-zhdn-prod="ssh user@192.168.109.195 -v"
 alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
+alias brewup="brew update -v && brew upgrade -v"
 
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 export PATH="/usr/local/bin:$PATH"
-export PATH="$HOME/.linuxbrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 #export http_proxy=http://192.168.62.59:20172;export https_proxy=http://192.168.62.59:20172;
