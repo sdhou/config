@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  registry:
+    container_name: registry
+    restart: always
+    image: registry:2
+    ports:
+      - 5001:5000
+    environment:
+      # REGISTRY_HTTP_TLS_CERTIFICATE: /certs/domain.crt
+      # REGISTRY_HTTP_TLS_KEY: /certs/domain.key
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+    volumes:
+      - /opt/code/config/docker-compose/registry/data:/var/lib/registry
+      # - /path/certs:/certs
+      - /opt/code/config/docker-compose/registry/auth:/auth
