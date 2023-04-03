@@ -105,7 +105,7 @@ alias mantingdb="ssh -qTfnN remote@101.200.32.72 -L 3307:127.0.0.1:3306"
 alias bwg-fmt="ssh root@174.137.62.213 -v -p 29547"
 alias bwg-cn2="ssh root@los.sdhou.com -v -p 26648"
 alias sss="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
-alias ssc="export http_proxy=;export https_proxy=;"
+alias ssc="export http_proxy= export https_proxy= export all_proxy="
 alias unionjd="ssh remote@47.103.82.106 -p 7788 -v"
 alias unionjddb="ssh -p 7788 -fCPN remote@47.103.82.106 -L 3308:rm-uf6s0h018qv9uedzl.mysql.rds.aliyuncs.com:3306"
 alias unionjdgitpull="ssh remote@47.103.82.106 'cd /data/code/admin/ && /usr/bin/git pull'"
@@ -132,13 +132,17 @@ alias freezer="ssh dev@8.133.172.205 -v"
 alias freezerdb="ps auxf|grep '3307:127.0.0.1:3306'|grep -v 'grep'|awk '{print \$2}'|xargs kill ;ssh -qTfnN dev@8.133.172.205 -L 3307:127.0.0.1:3306"
 alias parking="ssh dev@8.133.172.205 -v"
 alias parkingdb="ps auxf|grep '3308:127.0.0.1:3306'|grep -v 'grep'|awk '{print \$2}'|xargs kill ;ssh -qTfnN dev@8.133.172.205 -L 3308:127.0.0.1:3306"
+alias xj104="ssh shxj@192.168.108.104 -v"
+alias xj105="ssh shxj@192.168.108.105 -v"
+alias xj106="ssh shxj@192.168.108.106 -v"
 alias xijing01="ssh root@106.15.201.4 -v"
+alias xfy-api-up="ssh shxj@192.168.108.104 -v 'cd /home/shxj/xingfuyun/xingfuyun-server && git pull && docker-compose -f /home/shxj/xingfuyun/docker-compose.yml exec node_server pm2 restart all'"
 alias xijing-prod="ssh root@106.75.226.3 -v"
 alias xijing-zhdn-test="ssh ubuntu@113.31.157.154 -v"
 alias xijing-zhdn="ssh ubuntu@113.31.154.49 -v"
 alias xijing-zhdn-prod="ssh user@192.168.109.195 -v"
 alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
-alias brewup="brew update -v && brew upgrade -v"
+alias brewup="sss && brew update -v && brew upgrade -v && ssc"
 
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.local/bin"
@@ -147,5 +151,15 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_BREW_GIT_REMOTE=
+export HOMEBREW_CORE_GIT_REMOTE=
+export HOMEBREW_BOTTLE_DOMAIN=
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk/19.0.2/
+
 #export http_proxy=http://192.168.62.59:20172;export https_proxy=http://192.168.62.59:20172;
+# -- START ACTIVESTATE INSTALLATION
+export PATH="/Users/sdhou/.local/ActiveState/StateTool/release/bin:$PATH"
+# -- STOP ACTIVESTATE INSTALLATION
+# -- START ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+export PATH="/Users/sdhou/Library/Caches/activestate/bin:$PATH"
+# -- STOP ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
