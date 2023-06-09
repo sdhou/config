@@ -137,12 +137,13 @@ alias xj105="ssh shxj@192.168.108.105 -v"
 alias xj106="ssh shxj@192.168.108.106 -v"
 alias xijing01="ssh root@106.15.201.4 -v"
 alias xfy-api-up="ssh shxj@192.168.108.104 -v 'cd /home/shxj/xingfuyun/xingfuyun-server && git pull && docker-compose -f /home/shxj/xingfuyun/docker-compose.yml exec node_server pm2 restart all'"
+alias xj-gpu="ssh westwell@10.66.9.237 -v"
 alias xijing-prod="ssh root@106.75.226.3 -v"
 alias xijing-zhdn-test="ssh ubuntu@113.31.157.154 -v"
 alias xijing-zhdn="ssh ubuntu@113.31.154.49 -v"
 alias xijing-zhdn-prod="ssh user@192.168.109.195 -v"
 alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
-alias brewup="sss && brew update -v && brew upgrade -v && ssc"
+alias xg01="ssh root@175.102.135.181 -v"
 
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.local/bin"
@@ -151,10 +152,14 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
-export HOMEBREW_BREW_GIT_REMOTE=
-export HOMEBREW_CORE_GIT_REMOTE=
-export HOMEBREW_BOTTLE_DOMAIN=
 export JAVA_HOME=/opt/homebrew/Cellar/openjdk/19.0.2/
+
+alias brewup="sss && brew update -v && brew upgrade -v && ssc"
+#export HOMEBREW_INSTALL_FROM_API=1
+#export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.sjtug.sjtu.edu.cn/git/brew.git"
+#export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.sjtug.sjtu.edu.cn/git/homebrew-core.git"
+#export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+#export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
 
 #export http_proxy=http://192.168.62.59:20172;export https_proxy=http://192.168.62.59:20172;
 # -- START ACTIVESTATE INSTALLATION
@@ -163,3 +168,19 @@ export PATH="/Users/sdhou/.local/ActiveState/StateTool/release/bin:$PATH"
 # -- START ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
 export PATH="/Users/sdhou/Library/Caches/activestate/bin:$PATH"
 # -- STOP ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/sdhou/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/sdhou/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/sdhou/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/sdhou/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
