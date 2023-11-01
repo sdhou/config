@@ -1,6 +1,6 @@
 [user]
-    name = sdhou
-    email = xiaohou.don@gmail.com
+	name = sdhou
+	email = xiaohou.don@gmail.com
 [color]
     ui = true
 [alias]
@@ -10,3 +10,19 @@
     br = branch
     a = add -A
     ci = commit -a
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = /Users/sdhou/.gitignore_global
+	quotepath = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[pull]
+	rebase = true
