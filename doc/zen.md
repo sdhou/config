@@ -8,11 +8,11 @@
 - [最上乘论](https://deerpark.app/reader/T2011/1) - [弘忍](https://authority.dila.edu.tw/person/?fromInner=A000237)
 - [六祖坛经](https://deerpark.app/reader/T2008/1) - [慧能](https://authority.dila.edu.tw/person/?fromInner=A001719)
 - [心铭](https://baike.baidu.com/item/%E5%BF%83%E9%93%AD/9260757) - [牛头法融](https://authority.dila.edu.tw/person/?fromInner=A003867)
+- [大乘赞](http://m.fodizi.tw/qt/qita/24275.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
+- [十二时辰颂](http://m.fobao.org/qt/qita/22870.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
+- [十四科頌](http://m.fodizi.tw/qt/qita/24825.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
 
 ## 未读
 
 - [真心直说](https://deerpark.app/reader/T2019A/1) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
 - [修心诀](https://deerpark.app/reader/T2020/1) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
-- [十二时辰颂](http://m.fobao.org/qt/qita/22870.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
-- [大乘赞](http://m.fodizi.tw/qt/qita/24275.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
-- [十四科頌](https://m.fodizi.tw/qt/qita/24825.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
