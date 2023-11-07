@@ -16,3 +16,7 @@
 
 - [真心直说](https://deerpark.app/reader/T2019A/1) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
 - [修心诀](https://deerpark.app/reader/T2020/1) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
+- [唯心訣](https://deerpark.app/reader/T2018) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
+- [萬善同歸集](https://deerpark.app/reader/T2017) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
+- [宗鏡錄](https://deerpark.app/reader/T2016) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
+- [大乘起信論](https://deerpark.app/reader/T1666) - [馬鳴菩薩](https://authority.dila.edu.tw/person/?fromInner=A001003)
