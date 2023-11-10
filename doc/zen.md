@@ -22,3 +22,7 @@
 - [大乘起信論](https://deerpark.app/reader/T1666) - [馬鳴菩薩](https://authority.dila.edu.tw/person/?fromInner=A001003)
 - [肇論](https://deerpark.app/reader/T1858) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
 - [寶藏論](https://deerpark.app/reader/T1857) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
+- [黃檗山斷際禪師傳心法要](https://deerpark.app/reader/T2012A) - [希運](https://authority.dila.edu.tw/person/?fromInner=A000490)
+- [原人論](https://deerpark.app/reader/T1886) - [圭峰](https://authority.dila.edu.tw/person/?fromInner=A000587)
+- [大慧普覺禪師語錄](https://deerpark.app/reader/T1998A) - [大慧宗杲](https://authority.dila.edu.tw/person/?fromInner=A000475)
+- [正法眼藏](https://deerpark.app/reader/X1309) - [大慧宗杲](https://authority.dila.edu.tw/person/?fromInner=A000475)
