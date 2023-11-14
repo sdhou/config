@@ -12,11 +12,11 @@
 - [十二时辰颂](http://m.fobao.org/qt/qita/22870.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
 - [十四科頌](http://m.fodizi.tw/qt/qita/24825.html) - [寶誌](https://authority.dila.edu.tw/person/?fromInner=A002296)
 - [真心直说](https://deerpark.app/reader/T2019A) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
+- [修心诀](https://deerpark.app/reader/T2020) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
+- [唯心訣](https://deerpark.app/reader/T2018) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 
 ## 未读
 
-- [修心诀](https://deerpark.app/reader/T2020) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
-- [唯心訣](https://deerpark.app/reader/T2018) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [萬善同歸集](https://deerpark.app/reader/T2017) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [宗鏡錄](https://deerpark.app/reader/T2016) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [大乘起信論](https://deerpark.app/reader/T1666) - [馬鳴菩薩](https://authority.dila.edu.tw/person/?fromInner=A001003)
@@ -26,3 +26,7 @@
 - [原人論](https://deerpark.app/reader/T1886) - [圭峰](https://authority.dila.edu.tw/person/?fromInner=A000587)
 - [大慧普覺禪師語錄](https://deerpark.app/reader/T1998A) - [大慧宗杲](https://authority.dila.edu.tw/person/?fromInner=A000475)
 - [正法眼藏](https://deerpark.app/reader/X1309) - [大慧宗杲](https://authority.dila.edu.tw/person/?fromInner=A000475)
+- [思益梵天所問經](https://deerpark.app/reader/T0586) - [鳩摩羅什譯](https://authority.dila.edu.tw/person/?fromInner=A001583)
+- [金剛三昧經](https://deerpark.app/reader/T0273) - 北涼失譯人名
+- [維摩詰所說經](https://deerpark.app/reader/T0475) - [鳩摩羅什譯](https://authority.dila.edu.tw/person/?fromInner=A001583)
+- [智者大師](https://authority.dila.edu.tw/person/?fromInner=A001301)
