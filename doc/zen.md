@@ -14,10 +14,10 @@
 - [真心直说](https://deerpark.app/reader/T2019A) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
 - [修心诀](https://deerpark.app/reader/T2020) - [知讷](https://authority.dila.edu.tw/person/?fromInner=A001227)
 - [唯心訣](https://deerpark.app/reader/T2018) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
+- [萬善同歸集](https://deerpark.app/reader/T2017) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 
 ## 未读
 
-- [萬善同歸集](https://deerpark.app/reader/T2017) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [宗鏡錄](https://deerpark.app/reader/T2016) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [大乘起信論](https://deerpark.app/reader/T1666) - [馬鳴菩薩](https://authority.dila.edu.tw/person/?fromInner=A001003)
 - [肇論](https://deerpark.app/reader/T1858) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
@@ -29,4 +29,5 @@
 - [思益梵天所問經](https://deerpark.app/reader/T0586) - [鳩摩羅什譯](https://authority.dila.edu.tw/person/?fromInner=A001583)
 - [金剛三昧經](https://deerpark.app/reader/T0273) - 北涼失譯人名
 - [維摩詰所說經](https://deerpark.app/reader/T0475) - [鳩摩羅什譯](https://authority.dila.edu.tw/person/?fromInner=A001583)
+- [觀心論](https://deerpark.app/reader/T1920) - [智者大師](https://authority.dila.edu.tw/person/?fromInner=A001301)
 - [智者大師](https://authority.dila.edu.tw/person/?fromInner=A001301)
