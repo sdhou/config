@@ -18,6 +18,7 @@
 
 ## 未读
 
+- [顯密圓通成佛心要集](https://deerpark.app/reader/T1955) - 五臺山金河寺沙門道[厄*殳]集
 - [宗鏡錄](https://deerpark.app/reader/T2016) - [永明壽](https://authority.dila.edu.tw/person/?fromInner=A000282)
 - [大乘起信論](https://deerpark.app/reader/T1666) - [馬鳴菩薩](https://authority.dila.edu.tw/person/?fromInner=A001003)
 - [肇論](https://deerpark.app/reader/T1858) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
