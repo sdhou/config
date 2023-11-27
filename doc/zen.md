@@ -19,10 +19,10 @@
 - [金剛三昧經](https://deerpark.app/reader/T0273) - 北涼失譯人名
 - [佛說金剛三昧本性清淨不壞不滅經](https://deerpark.app/reader/T0644)
 - [原人論](https://deerpark.app/reader/T1886) - [圭峰](https://authority.dila.edu.tw/person/?fromInner=A000587)
+- [肇論](https://deerpark.app/reader/T1858) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
 
 ## 未读
 
-- [肇論](https://deerpark.app/reader/T1858) - [僧肇](https://authority.dila.edu.tw/person/?fromInner=A001598)
 - [佛說十地經](https://deerpark.app/reader/T0287) - [尸羅達摩](https://authority.dila.edu.tw/person/?fromInner=A000089)
 - [維摩詰所說經](https://deerpark.app/reader/T0475) - [鳩摩羅什譯](https://authority.dila.edu.tw/person/?fromInner=A001583)
 - [顯密圓通成佛心要集](https://deerpark.app/reader/T1955) - 五臺山金河寺沙門道[厄*殳]集
