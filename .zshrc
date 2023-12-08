@@ -144,6 +144,7 @@ alias xijing-zhdn="ssh ubuntu@113.31.154.49 -v"
 alias xijing-zhdn-prod="ssh user@192.168.109.195 -v"
 alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
 alias xg01="ssh root@175.102.135.181 -v"
+alias xcssh="ssh XC_CY_XFYEQ_wangliang@100.80.0.16 -p 60022 -v -i ~/.ssh/id_rsa -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa"
 
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.local/bin"
@@ -152,9 +153,9 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
-export JAVA_HOME=/opt/homebrew/Cellar/openjdk/19.0.2/
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk/21.0.1/
 
-alias brewup="sss && brew update -v && brew upgrade -v && ssc"
+alias brewup="sss && brew update -v && brew upgrade -v && brew list --cask|xargs brew upgrade --cask && ssc && brew cleanup"
 #export HOMEBREW_INSTALL_FROM_API=1
 #export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.sjtug.sjtu.edu.cn/git/brew.git"
 #export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.sjtug.sjtu.edu.cn/git/homebrew-core.git"
