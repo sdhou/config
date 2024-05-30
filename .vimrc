@@ -14,3 +14,4 @@ if has('gui_running')
     colorscheme solarized
     set guifont=Monaco:h20
 endif
+
