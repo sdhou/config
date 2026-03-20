@@ -5,10 +5,12 @@ plugins=(git)
 plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
+alias cat='bat'
 alias gitfb="git fetch && git rebase"
 alias oye="ssh -qTfnN -D 7070 root@los.sdhou.com -p 26648"
 alias oyek="ps auxf|grep qTfnN|grep -v grep|awk '{print \$2}'|xargs kill"
-alias sss="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
+
+alias sss="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890 NO_PROXY=127.0.0.1,localhost,192.168.0.0/16"
 alias ssc="export http_proxy= export https_proxy= export all_proxy="
 
 alias qgg01="ssh remote@47.95.253.37"
@@ -50,7 +52,9 @@ alias xijing-happiness-cloud01="ssh user@192.168.109.113 -v"
 alias xjxx="ssh westwell@192.168.109.127 -v"
 alias xjzx01="ssh root@101.132.255.112 -i ~/.ssh/id_rsa_new -v"
 alias xjzxuppc="rsync -e 'ssh -i ~/.ssh/id_rsa_new' -avz --delete --exclude='node_modules' --exclude='*.log' --exclude='.git/' --exclude='.env' dist/* root@101.132.255.112:/data/static/pc/"
+alias xjzxuppctest="rsync -e 'ssh -i ~/.ssh/id_rsa_new' -avz --delete --exclude='node_modules' --exclude='*.log' --exclude='.git/' --exclude='.env' dist/* root@101.132.255.112:/data/static_test/pc/"
 alias xjzxupapi="rsync -e 'ssh -i ~/.ssh/id_rsa_new' -avz --delete --exclude='node_modules' --exclude='*.log' --exclude='.git/' --exclude='.env' /opt/code/westwell/community-relation/api/ root@101.132.255.112:/data/api && ssh -i ~/.ssh/id_rsa_new root@101.132.255.112 -v 'source /root/.nvm/nvm.sh && /root/.nvm/versions/node/v22.16.0/bin/pm2 restart all'"
+alias xjzxupapitest="rsync -e 'ssh -i ~/.ssh/id_rsa_new' -avz --delete --exclude='node_modules' --exclude='*.log' --exclude='.git/' --exclude='.env' /opt/code/westwell/community-relation/api/ root@101.132.255.112:/data/api_test && ssh -i ~/.ssh/id_rsa_new root@101.132.255.112 -v 'source /root/.nvm/nvm.sh && /root/.nvm/versions/node/v22.16.0/bin/pm2 restart 1 2'"
 alias xjxxup="mvn clean package -Dmaven.test.skip=true && scp target/xx-manage-service-0.0.1-SNAPSHOT.jar westwell@192.168.109.127:/opt/xx-manage-service/app/app.jar && ssh westwell@192.168.109.127 'cd /opt/xx-manage-service && docker-compose restart && tail -f /opt/xx-manage-service/app/logs/xx-manage-service.log'"
 alias xjxxupdata="mvn clean package -Dmaven.test.skip=true && scp target/xx-data-service-0.0.1-SNAPSHOT.jar westwell@192.168.109.127:/opt/xx-data-service/app/app.jar && ssh westwell@192.168.109.127 'cd /opt/xx-data-service && docker-compose restart && tail -f /opt/xx-data-service/app/logs/xx-data-service.log'"
 alias xcssh="ssh XC_CY_XFYEQ_wangliang@100.80.0.16 -p 60022 -v -i ~/.ssh/id_rsa -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa"
@@ -67,13 +71,13 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
 export EDITOR=vim
-export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export PATH="/Users/sdhou/.local/ActiveState/StateTool/release/bin:$PATH"
 export PATH="/Users/sdhou/Library/Caches/activestate/bin:$PATH"
 export NODE_MIRROR=https://mirrors.ustc.edu.cn/node/
-export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
 export JAVA_HOME=$(brew --prefix openjdk)
 export PATH="${JAVA_HOME}/bin:${PATH}"
+export PATH="/Users/sdhou/.cargo/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh" # This loads nvm
@@ -97,3 +101,16 @@ unset __conda_setup
 
 ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Added by Antigravity
+export PATH="/Users/sdhou/.antigravity/antigravity/bin:$PATH"
+eval "$(uvx --generate-shell-completion zsh)"
+
+# bun completions
+[ -s "/Users/sdhou/.bun/_bun" ] && source "/Users/sdhou/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/Users/sdhou/.bun/bin/bun "/Users/sdhou/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
